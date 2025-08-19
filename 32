@@ -1,0 +1,1 @@
+select round((select (select max(lat_n) from station) -(select min(lat_n) from station))+(select (select max(long_w) from station)-(select min(long_w) from station)),4);
