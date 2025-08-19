@@ -1,0 +1,2 @@
+select city,char_length(city) from station order by char_length(city),city asc limit 1;
+select city,char_length(city) from station order by char_length(city) desc limit 1;
