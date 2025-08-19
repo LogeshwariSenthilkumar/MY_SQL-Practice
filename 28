@@ -1,0 +1,1 @@
+select round((select long_w from station where lat_n<137.2345 order by lat_n desc limit 1),4) ;
